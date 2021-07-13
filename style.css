@@ -1,0 +1,33 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+
+body{font-family: 'Poppins', sans-serif;}
+
+/* Top Player Sryle */
+
+main{display: flex;
+  justify-content: center;
+}
+
+.container{
+  width: 1055px;
+  height: 1987px;
+}
+  .top-players{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-row-gap: 30px;
+  }
+  .player{
+    margin-left: 43px;
+    box-shadow: 2px 5px 4px #88888839;
+  }
+.player img{
+  width: 300px;
+height: 256px;
+}
+ 
+  
+
+  
