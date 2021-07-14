@@ -90,7 +90,18 @@ h1:hover{
 .fa-arrow-right{
   margin-left:15px;
 }
+@keyframes sliding{
+  from{
+    background-color: tomato;
+    
 
+}
+to{
+  background-color: brown;
+ 
+}
+
+}
 .live{ 
   width: 168px;
   height: 44px;
@@ -101,12 +112,16 @@ h1:hover{
   display: flex;
   justify-content: center;
   align-items: center;
+
+  position: relative;
+  transform: translate(50px50px) scale(0.5);
+  animation:sliding 1s ease-in 0.5s infinite alternate ;
+  animation-play-state: running;
   }
   .live:hover{
-    width: 210px;
-    height: 55px;
-    font-weight: 800px;
-    transform: translate(50px50px) scale(0.5);
+    font-weight: 800px; 
+    background-color: green;
+    color: red;
   }
 
   /*/////////////////////////
