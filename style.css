@@ -5,6 +5,73 @@
 body{font-family: 'Poppins', sans-serif;}
 
 /* Top Player Sryle */
+nav{
+  width: 1160px;
+height: 44px;
+  display: flex;
+  justify-content: space-between;
+}
+nav ul {
+  display: flex;
+ 
+}
+nav li{
+  list-style: none;
+  margin: 0px 36px;
+  font-size: 15px;
+}
+nav li a {
+  text-decoration: none;
+  color: white ;
+}
+
+.header-item{
+  width: 1440px;
+  height: 500px;
+  background-color: rgba(0, 174, 255, 0.407);
+  margin-bottom: 30px;
+  
+}
+.icon{
+  color:red
+}
+
+.front-item{
+  display: flex;
+  width: 100%;
+  justify-content:space-evenly;
+  
+  color: aliceblue;
+  
+}
+h1{
+  font-size: 60px;
+  padding: 20px;
+  width: 485px;
+height: 230px;}
+
+.link{ margin-right: 5px;
+  border: red;
+  border-radius: 20px ;
+  background-color: rgba(255, 0, 0, 0.653);
+
+}
+span{
+ 
+}
+
+.fas{margin-left: 15px;
+
+}
+
+.front-item img{display: flex;
+  width: 556.01px;
+  height: 438px;
+  
+
+}
+
+
 
 main{display: flex;
   justify-content: center;
