@@ -11,8 +11,8 @@ body{font-family: 'Poppins', sans-serif;}
 
 
 /*////////////////////////
-common style end and Heading area style
---------------------------------------------*/
+common style end and Heading area style atarted
+-------------------------------------------------*/
 header{
   width: 100%;
   height: 677px;
@@ -128,7 +128,7 @@ to{
   Heading section style finished and Main section style stared
   ---------------------------------------*/
 
-main{display: flex;
+main{display:grid;
   justify-content: center;
   margin-top: 70px;
 }
@@ -168,6 +168,63 @@ height: 256px;
  
 }
 
+/*--------------- first section end section2 started---------------------- */
+
+.container2{
+  display:grid;
+  grid-gap: 50px;
+  grid-template-columns: repeat(2, 1fr);
+  width: 1055px;
+  height: 600px;
+  
+  
+}
+
+.highlightes{width: 100%;
+  height:80%;
+  justify-content: center;
+  margin-top:  60px;
+  margin-left: 10px;
+
+}
+h2{
+  font-size: 50px;
+  margin-left: 6px;
+}
+
+p,h3{margin-left: 6px;
+
+}
+h3{
+  background-color: rgba(218, 195, 21, 0.674);
+  width: 150px;
+  margin-top: 33px;
+  padding: 20px;
+  border-end-start-radius: 50px;
+}
+
+.live-match{width:100%;
+  height:100%;
+  background-color: rgb(42, 165, 114);
+
+}
+
+h3:hover{
+  background-color: rgb(228, 50, 18);
+  color: white
+}
+
+.live-match{
+  width:500px ;
+  height: 90%;
+  margin-top: 25px;
+  margin-right: 20px;
+}
+
+.live-match img{
+  width: 100%;
+  height: 100%;
+  border-radius: 35px;}
 
 /*///////////////////////////////
 Main section end and other section started
@@ -243,7 +300,14 @@ margin-bottom: 190px;
      grid-template-columns: repeat(1, 1fr);
      margin-bottom:90%;
    }
+   .player-about{
+     display: grid;
+   }
 
+   .container2{
+     display: grid;
+     grid-template-columns: repeat(1, 1fr);
+   }
    footer{
      margin-top: 3400px;
      width: 150px;
@@ -256,12 +320,9 @@ font-size: 16px;}
     height: 100%;
    }
 
-
-
-
-
-  
  }
+
+ /* -------------------------------All section style finished */
   
 
   
