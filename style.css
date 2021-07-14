@@ -16,7 +16,7 @@ common style end and Heading area style
 header{
   width: 100%;
   height: 677px;
-  display: flex;
+  display: grid;
   justify-content: center;
 }
 
@@ -68,7 +68,7 @@ nav li a {
 .front-item{
   display: flex;
   width: 100%;
-  justify-content:space-evenly;
+  justify-content:space-between;
   color: aliceblue;
   margin-top: 67px; 
 }
@@ -172,14 +172,81 @@ footer img{
 width: 483.87px;
 height: 110px;
 }
+
 .footer-icons{
 color: #969BAB;
 }
 
 
+/*-----------------/////--- Media Queries ---/////-------------*/
+
+/*--------------///// mobile devices/////----------------------- */
+
+ @media only screen and (max-width:680px) {
+   .header-item{
+    width: 360px;
+    height: 695px;
+   }
+   nav{
+     width:60%;
+   }
+   nav li {
+     margin: 1.5px;
+   }
+   .front-item{
+     display: flex;
+     justify-content: center;
+     flex-direction: column;
+   }
+   .box-1,.box-2 {
+    width: 278px;
+    height: 138px;
+    margin-bottom: 120px;
+    margin-left: 50px;
+   }
+   .box-1 h1{
+    width: 278px;
+    height: 138px;
+    font-size: 36px; 
+   }
+.box-1 .live
+{width: 168px;
+  height: 44px;
+  font-size: 16px;
+}
+.box-2{   
+  width: 329px;
+  height: 259.17px;
+margin-bottom: 190px;
+}
+   .box-2 img{
+     width: 80%;
+     height: 80%;
+   }
+
+   .top-players{
+     grid-template-columns: repeat(1, 1fr);
+     margin-bottom:90%;
+   }
+
+   footer{
+     margin-top: 3400px;
+     width: 150px;
+    height: 80px;
+  margin-left: 50px;
+font-size: 16px;}
+   
+   footer img{
+    width: 100%;
+    height: 100%;
+   }
 
 
- 
+
+
+
+  
+ }
   
 
   
